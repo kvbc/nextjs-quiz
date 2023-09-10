@@ -20,7 +20,7 @@ export default function QuizBrowser({ quizzes }: { quizzes: Quiz[] }) {
                     key={quiz.id}
                     className="from-indigo-400 to-indigo-500 bg-gradient-to-b text-white rounded-lg min-w-full p-4 flex gap-4"
                 >
-                    <Image
+                    <img
                         className="rounded"
                         src={quiz.img}
                         alt=""

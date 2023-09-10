@@ -95,7 +95,7 @@ export default function Quiz() {
                                     {questNum} / {quiz?.quests.length}
                                 </div>
                             </div>
-                            <Image
+                            <img
                                 src={quest.img}
                                 alt=""
                                 width={400}
@@ -145,7 +145,7 @@ export default function Quiz() {
                         </>
                     ) : (
                         <div className="w-max h-full flex flex-col justify-center items-center gap-8">
-                            <Image
+                            <img
                                 src="https://pngimg.com/d/racing_flag_PNG24.png"
                                 alt=""
                                 width={200}
